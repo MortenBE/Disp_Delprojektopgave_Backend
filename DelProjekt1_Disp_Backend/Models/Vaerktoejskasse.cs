@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace DelProjekt1_Disp_Backend.Models
@@ -20,7 +21,9 @@ namespace DelProjekt1_Disp_Backend.Models
         public string VTKModel { get; set; }
         public string VTKSerienummer { get; set; }
         public string VTKFarve { get; set; }
+        [JsonIgnore]
         public Haandvaerker EjesAfNavigation { get; set; }
+        [JsonIgnore]
         public HashSet<Vaerktoej> Vaerktoej { get; set; }
     }
 }

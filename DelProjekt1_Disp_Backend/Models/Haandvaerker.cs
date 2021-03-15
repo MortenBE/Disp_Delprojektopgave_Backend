@@ -12,6 +12,7 @@ namespace DelProjekt1_Disp_Backend.Models
         {
             Vaerktoejskasse = new HashSet<Vaerktoejskasse>();
         }
+
         [Key]
         public int HaandvaerkerId { get; set; }
         public DateTime HVAnsaettelsedato { get; set; }

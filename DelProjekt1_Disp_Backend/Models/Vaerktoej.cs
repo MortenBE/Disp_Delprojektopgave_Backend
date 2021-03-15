@@ -16,7 +16,6 @@ namespace DelProjekt1_Disp_Backend.Models
         public string VTSerienr { get; set; }
         public string VTType { get; set; }
         public int? LiggerIvtk { get; set; }
-
         public Vaerktoejskasse LiggerIvtkNavigation { get; set; }
     }
 }
