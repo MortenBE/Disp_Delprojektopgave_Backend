@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/DelProjekt1_Disp_Backend.csproj": {}
+    "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\DelProjekt1_Disp_Backend.csproj": {}
   },
   "projects": {
-    "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/DelProjekt1_Disp_Backend.csproj": {
+    "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\DelProjekt1_Disp_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/DelProjekt1_Disp_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\DelProjekt1_Disp_Backend.csproj",
         "projectName": "DelProjekt1_Disp_Backend",
-        "projectPath": "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/DelProjekt1_Disp_Backend.csproj",
-        "packagesPath": "/Users/holm/.nuget/packages/",
-        "outputPath": "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/obj/",
+        "projectPath": "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\DelProjekt1_Disp_Backend.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/holm/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +40,24 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -64,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
