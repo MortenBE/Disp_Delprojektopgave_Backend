@@ -7652,26 +7652,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "/Users/holm/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\DelProjekt1_Disp_Backend.csproj",
+      "projectUniqueName": "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/DelProjekt1_Disp_Backend.csproj",
       "projectName": "DelProjekt1_Disp_Backend",
-      "projectPath": "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\DelProjekt1_Disp_Backend.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\Disp_Delprojektopgave_Backend\\DelProjekt1_Disp_Backend\\obj\\",
+      "projectPath": "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/DelProjekt1_Disp_Backend.csproj",
+      "packagesPath": "/Users/holm/.nuget/packages/",
+      "outputPath": "/Users/holm/Documents/Disp_Delprojektopgave_Backend/DelProjekt1_Disp_Backend/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/holm/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7731,7 +7733,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
